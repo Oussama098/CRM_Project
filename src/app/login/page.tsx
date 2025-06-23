@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-
 export default function LoginPage() {
   const router = useRouter();
   const [email, setEmail] = useState('');
@@ -10,16 +9,14 @@ export default function LoginPage() {
   const [error, setError] = useState('');
 
   const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault(); 
+    e.preventDefault();
 
     if (!email || !password) {
       setError('Veuillez remplir tous les champs.');
       return;
     }
-
-    console.log('Tentative de connexion avec:', { email, password });
+    
     setError('');
-
     router.push('/dashboard');
   };
 
@@ -28,7 +25,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md dark:bg-gray-800">
         <div className="text-center">
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-            CRM Project
+            Mini CRM
           </h1>
           <p className="mt-2 text-gray-600 dark:text-gray-400">
             Connectez-vous à votre compte
