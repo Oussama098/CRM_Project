@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nom": "Martin",
+    "prenom": "Jean",
+    "email": "jean.martin@example.com",
+    "telephone": "0612345678",
+    "entreprise": "Alpha Solutions",
+    "statut": "actif",
+    "dateCreation": "2023-01-15"
+  },
+  {
+    "id": 2,
+    "nom": "Dupont",
+    "prenom": "Sophie",
+    "email": "sophie.dupont@example.com",
+    "telephone": "0789012345",
+    "entreprise": "Beta Innovations",
+    "statut": "prospect",
+    "dateCreation": "2023-03-20"
+  },
+  {
+    "id": 3,
+    "nom": "Petit",
+    "prenom": "Pierre",
+    "email": "pierre.petit@example.com",
+    "telephone": "0600112233",
+    "entreprise": "Gamma Conseil",
+    "statut": "inactif",
+    "dateCreation": "2023-02-01"
+  },
+  {
+    "id": 4,
+    "nom": "Durand",
+    "prenom": "Marie",
+    "email": "marie.durand@example.com",
+    "telephone": "0777889900",
+    "entreprise": "Delta Solutions",
+    "statut": "actif",
+    "dateCreation": "2023-04-05"
+  },
+  {
+    "nom": "el bakri",
+    "prenom": "OUSSAMA",
+    "email": "oussama@gmail.com",
+    "telephone": "12345",
+    "entreprise": "dsad",
+    "statut": "prospect",
+    "dateCreation": "2025-06-22",
+    "id": 5
+  },
+  {
+    "nom": "bouh",
+    "prenom": "mouhamed",
+    "email": "med@gmail.com",
+    "telephone": "7654321",
+    "entreprise": "dwas",
+    "statut": "prospect",
+    "dateCreation": "2025-06-22",
+    "id": 6
+  },
+  {
+    "nom": "etst",
+    "prenom": "tet",
+    "email": "testt@gmail.com",
+    "telephone": "21356789",
+    "entreprise": "dsjahds",
+    "statut": "prospect",
+    "dateCreation": "2025-06-23",
+    "id": 7
+  }
+]
